@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ringo</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="mx-auto w-10/12 flex justify-between items-center mt-6">
+        <div class="logo flex items-center">
+            <img src="./images/logo.svg" alt="logo ringo">
+        </div>
+        <ul class="hidden md:flex items-center gap-5">
+            <li class="text-base hover:text-[#AE7B3C] hover:text-lg duration-400"><a href="#">Напрямки</a></li>
+            <li class="text-base hover:text-[#AE7B3C] hover:text-lg duration-400"><a href="#">Про компанію</a></li>
+            <li class="text-base hover:text-[#AE7B3C] hover:text-lg duration-400"><a href="#">Переваги</a></li>
+            <li class="text-base hover:text-[#AE7B3C] hover:text-lg duration-400"><a href="#">Етапи роботи</a></li>
+        </ul>
+        <ul class="hidden md:flex items-center gap-2">
+            <li><a href="#"><img src="./images/instagram logo.svg" alt="instagram logo"></a></li>
+            <li><a href="#"><img src="./images/facebook logo.svg" alt="facebook logo"></a></li>
+        </ul>
+        <div class="phone flex gap-2 items-center">
+            <img src="./images/phono logo.svg" alt="phone logo">
+            <p class="hover:text-lg duration-200">+380 67661 5415</p>
+        </div>
+    </nav>
+    <div class="hero relative bg-cover h-screen flex items-center justify-center text-center mt-6" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.85)), url(./images/bg-photo.svg);">
+        <div class="article mx-auto px-4">
+            <h1 class="text-white font-[700] text-[36px] sm:text-[56px]">ВИРОБНИЦТВО <br>МЕБЛІВ</h1>
+            <p class="text-white font-[500] text-[16px] sm:text-[18px] mt-6">Ми виконуємо комплексне виготовлення корпусних меблів <br class="hidden md:block"> для житлових і комерційних приміщень, забезпечимо Вас <br class="hidden md:block"> якісним меблевим продуктом власного виробництва. </p>
+            <button class="w-[200px] sm:w-[260px] h-[50px] sm:h-[60px] bg-[#AE7B3C] text-white font-500 text-[16px] mt-6">Обговорити проект</button>
+        </div>
+    </div>
+    <div class="w-10/12 mx-auto my-10">
+        <div class="title flex justify-center mb-6">
+            <h1 class="font-semibold text-[32px] sm:text-[46px] my-10" data-aos="fade-down">Основні напрямки</h1>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="card" data-aos="fade-down-right">
+                <div class="text-gray-500 text-sm mb-2">01</div>
+                <h3 class="text-lg font-semibold mb-4">Дизайн інтер'єру</h3>
+                <img src="./images/card pic.svg" alt="Дизайн інтер'єру" class="w-full h-auto rounded">
+            </div>
+            <div class="card" data-aos="fade-down-right">
+                <div class="text-gray-500 text-sm mb-2">02</div>
+                <h3 class="text-lg font-semibold mb-4">Дизайн інтер'єру</h3>
+                <img src="./images/card pic 2.svg" alt="Дизайн інтер'єру" class="w-full h-auto rounded">
+            </div>
+            <div class="card" data-aos="fade-down-right">
+                <div class="text-gray-500 text-sm mb-2">03</div>
+                <h3 class="text-lg font-semibold mb-4">Дизайн інтер'єру</h3>
+                <img src="./images/card pic.svg" alt="Дизайн інтер'єру" class="w-full h-auto rounded">
+            </div>
+        </div>
+    </div>
+    <div class="bg-[#3D4A39] text-white mt-[100px]">
+        <div class="container mx-auto text-center py-8">
+            <h1 class="text-2xl font-bold mb-8" data-aos="fade-down-left">МИ ЗАБЕЗПЕЧЕМО ВАС</h1>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8" data-aos="fade-down-right">
+              <div class="flex flex-col items-center">
+                <img src="./images/mebelni icon.svg" alt="mebel icon" class="w-12 h-12 mb-4">
+                <p class="text-base">Меблями</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <img src="./images/chiroq icon.svg" alt="chiroq icon" class="w-12 h-12 mb-4">
+                <p class="text-base">Освітленням</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <img src="./images/cooker icon.svg" alt="cooker icon" class="w-12 h-12 mb-4">
+                <p class="text-base">Побутовою технікою</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <img src="./images/door icon.svg" alt="door icon" class="w-12 h-12 mb-4">
+                <p class="text-base">Дверима</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <img src="./images/floor icon.svg" alt="Panels" class="w-12 h-12 mb-4">
+                <p class="text-base text-center">Стіновими панелями та підлоговим покриттям</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <img src="./images/brinstorm icon.svg" alt="Design" class="w-12 h-12 mb-4">
+                <p class="text-base">Проектуванням</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>    
+</body>
+</html>
